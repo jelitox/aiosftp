@@ -82,17 +82,17 @@ setup(
     ],
     install_requires=[
         'wheel==0.40.0',
-        "aiohttp==3.8.4",
+        "aiohttp>=3.8.5",
         "asyncio==3.4.3",
         "asyncdb>=2.2.0",
         "navconfig[default]>=1.1.0",
         "aioftp==0.21.4",
         "siosocks>=0.3.0",
-        "asyncssh==2.13.1",
+        "asyncssh==2.13.2",
     ],
     extras_require={
         "uvloop": [
-            "uvloop==0.17.0",
+            "uvloop>=0.17.0",
         ],
     },
     entry_points={
